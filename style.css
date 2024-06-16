@@ -11,8 +11,8 @@ body, html {
 }
 
 #ruffle {
-    width: 800px; /* Largura fixa */
-    height: 600px; /* Altura fixa */
+    width: 600px; /* Largura diminuída em 25% */
+    height: 450px; /* Altura diminuída em 25% */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -59,8 +59,8 @@ body, html {
 /* Modo retrato */
 @media only screen and (orientation: portrait) {
     #ruffle {
-        width: 800px; /* Largura fixa */
-        height: 600px; /* Altura fixa */
+        width: 600px; /* Largura diminuída em 25% */
+        height: 450px; /* Altura diminuída em 25% */
         overflow: auto; /* Permitir rolagem se necessário */
     }
 }
@@ -68,8 +68,8 @@ body, html {
 /* Modo paisagem */
 @media only screen and (orientation: landscape) {
     #ruffle {
-        width: 800px; /* Largura fixa */
-        height: 600px; /* Altura fixa */
+        width: 600px; /* Largura diminuída em 25% */
+        height: 450px; /* Altura diminuída em 25% */
         overflow: auto; /* Permitir rolagem se necessário */
     }
 }
@@ -77,8 +77,8 @@ body, html {
 /* Ajuste para desktop */
 @media (min-width: 1024px) {
     #ruffle {
-        width: 800px; /* Largura fixa */
-        height: 600px; /* Altura fixa */
+        width: 600px; /* Largura diminuída em 25% */
+        height: 450px; /* Altura diminuída em 25% */
         overflow: auto; /* Permitir rolagem se necessário */
     }
 }
